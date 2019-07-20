@@ -1,0 +1,11 @@
+/home/leandro/Documents/Leandro/Projects/data-structure-overview/obj/Debug/netcoreapp2.2/Projects.csprojAssemblyReference.cache
+/home/leandro/Documents/Leandro/Projects/data-structure-overview/obj/Debug/netcoreapp2.2/Projects.csproj.CoreCompileInputs.cache
+/home/leandro/Documents/Leandro/Projects/data-structure-overview/obj/Debug/netcoreapp2.2/Projects.AssemblyInfoInputs.cache
+/home/leandro/Documents/Leandro/Projects/data-structure-overview/obj/Debug/netcoreapp2.2/Projects.AssemblyInfo.cs
+/home/leandro/Documents/Leandro/Projects/data-structure-overview/bin/Debug/netcoreapp2.2/Projects.deps.json
+/home/leandro/Documents/Leandro/Projects/data-structure-overview/bin/Debug/netcoreapp2.2/Projects.runtimeconfig.json
+/home/leandro/Documents/Leandro/Projects/data-structure-overview/bin/Debug/netcoreapp2.2/Projects.runtimeconfig.dev.json
+/home/leandro/Documents/Leandro/Projects/data-structure-overview/bin/Debug/netcoreapp2.2/Projects.dll
+/home/leandro/Documents/Leandro/Projects/data-structure-overview/bin/Debug/netcoreapp2.2/Projects.pdb
+/home/leandro/Documents/Leandro/Projects/data-structure-overview/obj/Debug/netcoreapp2.2/Projects.dll
+/home/leandro/Documents/Leandro/Projects/data-structure-overview/obj/Debug/netcoreapp2.2/Projects.pdb

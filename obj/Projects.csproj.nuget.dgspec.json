@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/leandro/Documents/Leandro/Projects/data-structure-overview/Projects.csproj": {}
+  },
+  "projects": {
+    "/home/leandro/Documents/Leandro/Projects/data-structure-overview/Projects.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/leandro/Documents/Leandro/Projects/data-structure-overview/Projects.csproj",
+        "projectName": "Projects",
+        "projectPath": "/home/leandro/Documents/Leandro/Projects/data-structure-overview/Projects.csproj",
+        "packagesPath": "/home/leandro/.nuget/packages/",
+        "outputPath": "/home/leandro/Documents/Leandro/Projects/data-structure-overview/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/leandro/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
