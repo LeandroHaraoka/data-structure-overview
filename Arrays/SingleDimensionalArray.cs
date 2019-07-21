@@ -42,7 +42,6 @@ namespace DataStructureOverview.Arrays
             // Array.Copy(integerNumberArray, 0, copyArray, 2, 3);
             // Console.WriteLine("Resultado do Copy: ");
             // PrintArrayElements(copyArray);
-
         }
 
         private void PrintArrayElements(Array array)
