@@ -687,29 +687,33 @@
     ]
   },
   "packageFolders": {
-    "/home/leandro/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\leandro.haraoka\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/leandro/Documents/Leandro/Projects/data-structure-overview/Projects.csproj",
+      "projectUniqueName": "C:\\Users\\leandro.haraoka\\Documents\\Leandro\\Projects\\data-structure-overview\\Projects.csproj",
       "projectName": "Projects",
-      "projectPath": "/home/leandro/Documents/Leandro/Projects/data-structure-overview/Projects.csproj",
-      "packagesPath": "/home/leandro/.nuget/packages/",
-      "outputPath": "/home/leandro/Documents/Leandro/Projects/data-structure-overview/obj/",
+      "projectPath": "C:\\Users\\leandro.haraoka\\Documents\\Leandro\\Projects\\data-structure-overview\\Projects.csproj",
+      "packagesPath": "C:\\Users\\leandro.haraoka\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\leandro.haraoka\\Documents\\Leandro\\Projects\\data-structure-overview\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/leandro/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\leandro.haraoka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://artifacts.stone.com.br:8443/artifactory/api/nuget/nuget-dev-local": {},
+        "https://artifacts.stone.com.br:8443/artifactory/api/nuget/nuget-prod-local": {}
       },
       "frameworks": {
         "netcoreapp2.2": {

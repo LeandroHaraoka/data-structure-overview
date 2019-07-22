@@ -19,6 +19,10 @@ namespace DataStructureOverview
             // ArrayList
             var arrayList = new ArrayList();
             arrayList.RunExamples();
+
+            // sortedList
+            var sortedList = new SortedList();
+            sortedList.RunExamples();
         }
     }
 }
