@@ -1,8 +1,9 @@
 using System;
+using System.Collections;
 
 namespace DataStructureOverview.Arrays
 {
-    public class SortedList
+    public class SortedLists
     {
         public void RunExamples()
         {

@@ -21,8 +21,12 @@ namespace DataStructureOverview
             arrayList.RunExamples();
 
             // sortedList
-            var sortedList = new SortedList();
-            sortedList.RunExamples();
+            // var sortedList = new SortedList();
+            // sortedList.RunExamples();
+
+            // ArrayList
+            var linkedList = new LinkedList();
+            linkedList.RunExamples();
         }
     }
 }
