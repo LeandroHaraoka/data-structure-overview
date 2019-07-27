@@ -2,9 +2,9 @@ using System;
 
 namespace DataStructureOverview.Arrays
 {
-    public class SingleDimensionalArray
+    public class SingleDimensionalArrayExamples
     {
-        public void RunExamples()
+        public void Run()
         {
             // Cria arrays
             var integerNumberArray = new int[] {1 ,2 ,3 ,4 ,5};
@@ -17,13 +17,6 @@ namespace DataStructureOverview.Arrays
                 new DateTime(2016, 01, 01)
             };
             
-            // Printa a array
-            Console.WriteLine("Ao printar o objeto array temos: ");
-            Console.WriteLine(integerNumberArray);
-            Console.WriteLine(stringArray);
-            Console.WriteLine(dateArray);
-            Console.WriteLine("");
-            
             // Printa cada elemento da array
             Console.WriteLine("Ao printar cada elemento da array temos: ");
             PrintArrayElements(integerNumberArray);
@@ -31,17 +24,19 @@ namespace DataStructureOverview.Arrays
             PrintArrayElements(dateArray);
             Console.WriteLine("");
 
-            // Usando o CopyTo
-            //  var copyToArray = new int[10];
-            //  integerNumberArray.CopyTo(copyToArray,5);
+            // Copia a array integerNumberArray para a destinationArray
+            // na posicao 3
+            // var destinationArray = new int[10];
+            // integerNumberArray.CopyTo(destinationArray,3);
             // Console.WriteLine("Resultado do CopyTo: ");
-            // PrintArrayElements(copyToArray);
+            // PrintArrayElements(destinationArray);
 
-            // Usando o Copy
-            // var copyArray = new int[10];
-            // Array.Copy(integerNumberArray, 0, copyArray, 2, 3);
-            // Console.WriteLine("Resultado do Copy: ");
-            // PrintArrayElements(copyArray);
+            // Copia um range da array de origem a partir de um determinado indice
+            // para uma array de destino
+            var destinationArray = new int[10];
+            Array.Copy(integerNumberArray, 0, destinationArray, 2, 3);
+            Console.WriteLine("Resultado do Copy: ");
+            PrintArrayElements(destinationArray);
         }
 
         private void PrintArrayElements(Array array)

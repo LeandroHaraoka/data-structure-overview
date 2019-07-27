@@ -1,5 +1,3 @@
-using System;
-using System.Text;
 using DataStructureOverview.Arrays;
 
 namespace DataStructureOverview
@@ -8,25 +6,25 @@ namespace DataStructureOverview
     {
         static void Main(string[] args)
         {
-            // Single Dimensional Arrays
-            var singleDimensionalArray = new SingleDimensionalArray();
-            singleDimensionalArray.RunExamples();
+            // // Single Dimensional Arrays
+            // var singleDimensionalArrayExamples = new SingleDimensionalArrayExamples();
+            // singleDimensionalArrayExamples.Run();
 
-            // Multiple Dimensional Arrays
-            var multipleDimensionalArray = new MultipleDimensionalArray();
-            multipleDimensionalArray.RunExamples();
+            // // Multiple Dimensional Arrays
+            // var multipleDimensionalArrayExamples = new MultipleDimensionalArrayExamples();
+            // multipleDimensionalArrayExamples.Run();
 
-            // ArrayList
-            var arrayList = new ArrayList();
-            arrayList.RunExamples();
+            // // ArrayList
+            // var arrayListExamples = new ArrayListExamples();
+            // arrayListExamples.Run();
 
-            // sortedList
-            // var sortedList = new SortedList();
-            // sortedList.RunExamples();
+            // // LinkedList
+            // var linkedListExamples = new LinkedListExamples();
+            // linkedListExamples.Run();
 
-            // ArrayList
-            var linkedList = new LinkedList();
-            linkedList.RunExamples();
+            // SortedList
+            var sortedListExamples = new SortedListExamples();
+            sortedListExamples.Run();
         }
     }
 }

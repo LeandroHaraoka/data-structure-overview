@@ -3,9 +3,9 @@ using DataStructureOverview.Arrays.Terrain;
 
 namespace DataStructureOverview.Arrays
 {
-    public class MultipleDimensionalArray
+    public class MultipleDimensionalArrayExamples
     {
-        public void RunExamples()
+        public void Run()
         {
             var terrainMapExample = new TerrainMapExample();
             terrainMapExample.Run();

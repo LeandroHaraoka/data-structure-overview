@@ -1,12 +1,13 @@
 using System;
+using System.Collections;
 
 namespace DataStructureOverview.Arrays
 {
-    public class ArrayList
+    public class ArrayListExamples
     { 
-        public void RunExamples()
+        public void Run()
         {
-            var arrayList = new System.Collections.ArrayList();
+            var arrayList = new ArrayList();
             arrayList.Add(1);
             arrayList.AddRange(new int[] {2, 3, 4});
             Console.WriteLine("ArrayList values:");

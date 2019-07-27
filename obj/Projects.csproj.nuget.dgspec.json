@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/c/Users/leandro.haraoka/Documents/Leandro/Projects/data-structure-overview/Projects.csproj": {}
+    "/home/leandro/Documents/Leandro/Projects/data-structure-overview/Projects.csproj": {}
   },
   "projects": {
-    "/mnt/c/Users/leandro.haraoka/Documents/Leandro/Projects/data-structure-overview/Projects.csproj": {
+    "/home/leandro/Documents/Leandro/Projects/data-structure-overview/Projects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/c/Users/leandro.haraoka/Documents/Leandro/Projects/data-structure-overview/Projects.csproj",
+        "projectUniqueName": "/home/leandro/Documents/Leandro/Projects/data-structure-overview/Projects.csproj",
         "projectName": "Projects",
-        "projectPath": "/mnt/c/Users/leandro.haraoka/Documents/Leandro/Projects/data-structure-overview/Projects.csproj",
-        "packagesPath": "/home/leandroharaoka/.nuget/packages/",
-        "outputPath": "/mnt/c/Users/leandro.haraoka/Documents/Leandro/Projects/data-structure-overview/obj/",
+        "projectPath": "/home/leandro/Documents/Leandro/Projects/data-structure-overview/Projects.csproj",
+        "packagesPath": "/home/leandro/.nuget/packages/",
+        "outputPath": "/home/leandro/Documents/Leandro/Projects/data-structure-overview/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/leandroharaoka/.nuget/NuGet/NuGet.Config"
+          "/home/leandro/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
