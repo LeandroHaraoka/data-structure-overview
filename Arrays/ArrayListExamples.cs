@@ -21,7 +21,7 @@ namespace DataStructureOverview.Arrays
             Console.WriteLine("ArrayList values after removes first occurrence of value '10':");
             PrintArrayListElements(arrayList);
         }
-        private void PrintArrayListElements(System.Collections.ArrayList arrayList)
+        private void PrintArrayListElements(ArrayList arrayList)
         {
             foreach (var element in arrayList)
             {

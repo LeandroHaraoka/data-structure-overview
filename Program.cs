@@ -1,4 +1,5 @@
 using DataStructureOverview.Arrays;
+using DataStructureOverview.Stacks;
 
 namespace DataStructureOverview
 {
@@ -22,9 +23,13 @@ namespace DataStructureOverview
             // var linkedListExamples = new LinkedListExamples();
             // linkedListExamples.Run();
 
-            // SortedList
-            var sortedListExamples = new SortedListExamples();
-            sortedListExamples.Run();
+            // // SortedList
+            // var sortedListExamples = new SortedListExamples();
+            // sortedListExamples.Run();
+
+            // Stacks
+            var stackExamples = new StackExamples();
+            stackExamples.Run();        
         }
     }
 }
