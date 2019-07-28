@@ -1,4 +1,6 @@
 using DataStructureOverview.Arrays;
+using DataStructureOverview.Queues;
+using DataStructureOverview.Queues.CallCenter;
 using DataStructureOverview.Stacks;
 
 namespace DataStructureOverview
@@ -27,9 +29,21 @@ namespace DataStructureOverview
             // var sortedListExamples = new SortedListExamples();
             // sortedListExamples.Run();
 
-            // Stacks
-            var stackExamples = new StackExamples();
-            stackExamples.Run();        
+            // // Stacks
+            // var stackExamples = new StackExamples();
+            // stackExamples.Run();        
+
+            // // Queues
+            // var queueExamples = new QueueExamples();
+            // queueExamples.Run();  
+            
+            // // CallCenter
+            // var callCenterPointExample = new CallCenterPointExample();
+            // callCenterPointExample.Run();  
+
+            // CallCenter
+            var callCenterExample = new CallCenterExample();
+            callCenterExample.Run();  
         }
     }
 }
