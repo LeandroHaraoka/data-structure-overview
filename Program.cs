@@ -1,7 +1,10 @@
 using DataStructureOverview.Arrays;
+using DataStructureOverview.Dictionaries;
 using DataStructureOverview.Hashtables;
 using DataStructureOverview.Queues;
 using DataStructureOverview.Queues.CallCenter;
+using DataStructureOverview.Sets;
+using DataStructureOverview.Sets.Pool;
 using DataStructureOverview.Stacks;
 
 namespace DataStructureOverview
@@ -47,8 +50,26 @@ namespace DataStructureOverview
             // callCenterExample.Run();  
 
             // Hashtable
-            var hashTableExample = new HashTableExample();
-            hashTableExample.Run();  
+            // var hashTableExample = new HashTableExample();
+            // hashTableExample.Run();  
+
+            // Dictionaries
+            // var dictionaryExample = new DictionaryExample();
+            // dictionaryExample.Run();  
+
+            // SortedDictionaries
+            // var sortedDictionaryExample = new SortedDictionaryExample();
+            // sortedDictionaryExample.Run(); 
+
+            // HashSets
+            // var hashSetExample = new HashSetExample();
+            // hashSetExample.Run(); 
+
+            // Pool
+            var poolExample = new PoolExample();
+            poolExample.Run(); 
+
+            
         }
     }
 }

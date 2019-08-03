@@ -2,13 +2,13 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace DataStructureOverview.Hashtables
+namespace DataStructureOverview.Dictionaries
 {
-    public class HashTableExample
+    public class DictionaryExample
     { 
         public void Run()
         {
-            Hashtable phoneBook = new Hashtable()
+            Dictionary<string, string> phoneBook =  new Dictionary<string, string>()
             {
                 {"Larissa", "(11) 94826-5436"},
                 {"Manuel", "(11) 95883-1853"},
@@ -20,15 +20,12 @@ namespace DataStructureOverview.Hashtables
             if(!phoneBook.ContainsKey("Larissa"))
                 phoneBook.Add("Larissa", "(11) 96666-4533");
 
-            if(!phoneBook.ContainsKey("Maria"))
-                phoneBook.Add("Maria", 12345);
-
             PrintElements(phoneBook);
         }
         
-        private void PrintElements(Hashtable hashtable)
+        private void PrintElements(Dictionary<string,string> dictionary)
         {
-            foreach(DictionaryEntry element in hashtable)
+            foreach(KeyValuePair<string, string> element in dictionary)
             {
                 Console.WriteLine($"{element.Key}: {element.Value}");
             }
