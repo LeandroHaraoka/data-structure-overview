@@ -1,4 +1,5 @@
 using DataStructureOverview.Arrays;
+using DataStructureOverview.Hashtables;
 using DataStructureOverview.Queues;
 using DataStructureOverview.Queues.CallCenter;
 using DataStructureOverview.Stacks;
@@ -42,8 +43,12 @@ namespace DataStructureOverview
             // callCenterPointExample.Run();  
 
             // CallCenter
-            var callCenterExample = new CallCenterExample();
-            callCenterExample.Run();  
+            // var callCenterExample = new CallCenterExample();
+            // callCenterExample.Run();  
+
+            // Hashtable
+            var hashTableExample = new HashTableExample();
+            hashTableExample.Run();  
         }
     }
 }
