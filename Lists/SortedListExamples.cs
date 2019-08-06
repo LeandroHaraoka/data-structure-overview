@@ -1,8 +1,7 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 
-namespace DataStructureOverview.Arrays
+namespace DataStructureOverview.Lists
 {
     public class SortedListExamples
     {
@@ -28,7 +27,7 @@ namespace DataStructureOverview.Arrays
             }
         }
         
-        public static void PrintKeysAndValues( SortedList<int, string> sortedList )  
+        public static void PrintKeysAndValues(SortedList<int, string> sortedList )  
         {
             Console.WriteLine( "SortedList:" );
             foreach( KeyValuePair<int, string> pair in sortedList )

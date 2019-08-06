@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace DataStructureOverview.Arrays
+namespace DataStructureOverview.Lists
 {
     public class LinkedListExamples
     {

@@ -8,7 +8,7 @@ namespace DataStructureOverview.Dictionaries
     { 
         public void Run()
         {
-            Dictionary<string, string> phoneBook =  new Dictionary<string, string>()
+            var phoneBook =  new Dictionary<string, string>()
             {
                 {"Larissa", "(11) 94826-5436"},
                 {"Manuel", "(11) 95883-1853"},
@@ -23,7 +23,7 @@ namespace DataStructureOverview.Dictionaries
             PrintElements(phoneBook);
         }
         
-        private void PrintElements(Dictionary<string,string> dictionary)
+        private void PrintElements(IDictionary<string,string> dictionary)
         {
             foreach(KeyValuePair<string, string> element in dictionary)
             {

@@ -8,7 +8,7 @@ namespace DataStructureOverview.Dictionaries
     { 
            public void Run()
         {
-            SortedDictionary<string, string> phoneBook =  new SortedDictionary<string, string>()
+            var phoneBook =  new SortedDictionary<string, string>()
             {
                 {"Larissa", "(11) 94826-5436"},
                 {"Manuel", "(11) 95883-1853"},
