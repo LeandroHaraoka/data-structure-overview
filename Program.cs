@@ -1,6 +1,7 @@
 using DataStructureOverview.Arrays;
 using DataStructureOverview.Dictionaries;
 using DataStructureOverview.Hashtables;
+using DataStructureOverview.Lists;
 using DataStructureOverview.Queues;
 using DataStructureOverview.Queues.CallCenter;
 using DataStructureOverview.Sets;
@@ -21,7 +22,7 @@ namespace DataStructureOverview
             // var multipleDimensionalArrayExamples = new MultipleDimensionalArrayExamples();
             // multipleDimensionalArrayExamples.Run();
 
-            // // ArrayList
+            // ArrayList
             // var arrayListExamples = new ArrayListExamples();
             // arrayListExamples.Run();
 
@@ -30,8 +31,8 @@ namespace DataStructureOverview
             // linkedListExamples.Run();
 
             // // SortedList
-            // var sortedListExamples = new SortedListExamples();
-            // sortedListExamples.Run();
+            var sortedListExamples = new SortedListExamples();
+            sortedListExamples.Run();
 
             // // Stacks
             // var stackExamples = new StackExamples();
@@ -66,8 +67,8 @@ namespace DataStructureOverview
             // hashSetExample.Run(); 
 
             // Pool
-            var poolExample = new PoolExample();
-            poolExample.Run(); 
+            // var poolExample = new PoolExample();
+            // poolExample.Run(); 
 
             
         }

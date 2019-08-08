@@ -18,24 +18,19 @@ namespace DataStructureOverview.Arrays
             };
             
             // Printa cada elemento da array
-            Console.WriteLine("Ao printar cada elemento da array temos: ");
+            Console.WriteLine("IntegerNumberArray: ");
             PrintArrayElements(integerNumberArray);
+            Console.WriteLine("StringArray: ");
             PrintArrayElements(stringArray);
+            Console.WriteLine("DateArray: ");
             PrintArrayElements(dateArray);
             Console.WriteLine("");
 
             // Copia a array integerNumberArray para a destinationArray
             // na posicao 3
-            // var destinationArray = new int[10];
-            // integerNumberArray.CopyTo(destinationArray,3);
-            // Console.WriteLine("Resultado do CopyTo: ");
-            // PrintArrayElements(destinationArray);
-
-            // Copia um range da array de origem a partir de um determinado indice
-            // para uma array de destino
             var destinationArray = new int[10];
-            Array.Copy(integerNumberArray, 0, destinationArray, 2, 3);
-            Console.WriteLine("Resultado do Copy: ");
+            integerNumberArray.CopyTo(destinationArray,3);
+            Console.WriteLine($"Copies integerNumberArray to a new array with length {destinationArray.GetLength(0)}.");
             PrintArrayElements(destinationArray);
         }
 
